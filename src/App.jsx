@@ -9,7 +9,7 @@ function App() {
     <>
       {/* NAV */}
       <nav className="nav">
-        <span className="nav-name">Codey Yoga</span>
+        <span className="nav-name">Kotiin Yoga</span>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#classes">Classes</a>
@@ -22,8 +22,8 @@ function App() {
       <section className="hero">
         <img src={teachImg} alt="Codey teaching yoga" />
         <div className="hero-overlay">
-          <h1>Codey Yoga</h1>
-          <p>Showing up for yourself, every time.</p>
+          <h1>Kotiin Yoga</h1>
+          <p>Kotiin — Finnish for "home." Yoga as the practice of coming home to yourself. Showing up for yourself, every time.</p>
           <a href="#contact" className="btn">Get in Touch</a>
         </div>
       </section>
@@ -100,7 +100,7 @@ function App() {
           </div>
           <div className="testimonial">
             <p>
-              "Codey teaches from the heart. She's passionate and tailored the class to my background. I'm a professional dancer who knows which muscles need more attention but haven't always been able to target them well. Throughout the yoga class, as we flowed, her cues and guides helped me change that. Thank you!!."
+              "Teaching from the heart - Codey is passionate and tailored the class to my background. I'm a professional dancer who knows which muscles need more attention but haven't always been able to target them well. As we flowed through the class the cues were clear, safe and made it easier to activate the right muscles. Thank you Codey."
             </p>
             <span className="testimonial-author">LW — Professional Dancer & Choreographer</span>
           </div>
@@ -124,7 +124,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© 2026 Codey Yoga</p>
+        <p>© 2026 Kotiin Yoga</p>
       </footer>
     </>
   )
