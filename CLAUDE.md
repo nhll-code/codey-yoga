@@ -44,3 +44,7 @@
 - Test mentally against mobile (≤768px) and desktop (≥1024px) for every CSS change.
 - Never rewrite a whole file to fix one thing.
 - Commit only `src/` files. Never commit `dist/`, `node_modules/`, or editor config.
+
+## Session Start
+- At the start of every session, ask: "Do you want to run terminal commands in Git Bash or PowerShell?"
+- Do not assume. Wait for the answer before running any shell commands.
