@@ -62,7 +62,7 @@
 }
 
 .hero-overlay h1 {
-  font-size: 72px;
+  font-size: clamp(38px, 8vw, 72px);
   color: #fff;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
@@ -119,7 +119,7 @@
 }
 
 .value-text h2 {
-  font-size: 42px;
+  font-size: clamp(26px, 5.5vw, 42px);
   line-height: 1.5;
   color: #1a1a1a;
   max-width: 900px;
@@ -188,7 +188,7 @@
 }
 
 .about-text h2 {
-  font-size: 48px;
+  font-size: clamp(28px, 5.5vw, 48px);
   line-height: 1.15;
   margin-bottom: 28px;
   color: #1a1a1a;
@@ -299,7 +299,7 @@
 }
 
 .contact-section h2 {
-  font-size: 52px;
+  font-size: clamp(30px, 7vw, 52px);
   color: #fff;
   margin-bottom: 20px;
 }
@@ -336,4 +336,122 @@
   color: #999;
   border-top: 1px solid #e8e4de;
   background: #faf9f6;
+}
+
+/* ── MOBILE ────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* NAV — hide links, just show brand name */
+  .nav {
+    padding: 16px 24px;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  /* HERO */
+  .hero-overlay {
+    padding: 32px 24px;
+  }
+
+  /* VALUE TEXT */
+  .value-text {
+    padding: 48px 24px 56px;
+  }
+  .value-text h2 {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+
+  /* LANDSCAPE — shrink height, hide overlay text */
+  .landscape-overlay {
+    height: 260px;
+  }
+  .landscape-overlay-text {
+    display: none;
+  }
+
+  /* OFFER */
+  .offer-section {
+    padding: 56px 24px;
+  }
+  .offer-intro {
+    font-size: 16px;
+  }
+  .offer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  /* card boxes for each offering on mobile */
+  .offer-item {
+    background: #fff;
+    border: 1px solid #e8e4de;
+    padding: 28px 24px;
+  }
+  .offer-item h3 {
+    font-size: 22px;
+  }
+  .offer-item p {
+    font-size: 16px;
+  }
+
+  /* PHOTO STRIP — stack vertically */
+  .photo-strip {
+    grid-template-columns: 1fr;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .photo-strip img {
+    height: 240px;
+  }
+
+  /* ABOUT */
+  .about-section {
+    padding: 56px 24px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .about-photo {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+  .about-text h2 {
+    font-size: 26px;
+  }
+  .about-text p {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials-section {
+    padding: 56px 24px;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    padding: 56px 24px;
+  }
+  .contact-section h2 {
+    font-size: 28px;
+  }
+  .contact-section p {
+    font-size: 18px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 28px 24px;
+  }
+
+  /* GENERIC SECTION */
+  .section {
+    padding: 56px 24px;
+  }
 }
