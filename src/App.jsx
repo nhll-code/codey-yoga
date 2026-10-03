@@ -99,7 +99,7 @@ function App() {
               Hello, I'm Codey! I didn't come to yoga through grace or flexibility. I came through grief and injury from years of high-impact sport and pushing my limits until I decided to listen to my body. Yoga is a path to rebuilding and self discovery.
             </p>
             <p>
-              I'm a neuroscientist by training, and a movement teacher by choice. Being a researched helped me understand others, but yoga taught me to understand myself and who I am (cheesy but true).   My vision is to use yoga and movement to help you get to know yourself and your body better.
+              I'm a neuroscientist by training, and a movement teacher by choice. Being a researcher helped me understand others, but yoga taught me to understand myself and who I am (cheesy but true).   My vision is to use yoga and movement to help you get to know yourself and your body better.
             </p>
             <p>
               Join me on the mat - come with an open mind and leave feeling stronger, calmer, and more like yourself.
